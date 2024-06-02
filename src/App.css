@@ -1,0 +1,141 @@
+/* App.css */
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.heading-box{
+  display: flex;
+  justify-content: start;
+  padding-top: 5px;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.dataCard {
+  background-color: #18181B;
+  border-radius: 8px;
+  padding: 20px;
+  padding-bottom: 50px;
+  margin: 10px;
+  width: 90%;
+  max-width: 90%;
+  max-height: 95vh;
+  height: 95vh;
+}
+
+
+.tableCard {
+  background-color: #18181B;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 90%;
+  max-width: 90vw;
+  overflow-x: auto;
+}
+
+.dataTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.dataTable th,
+.dataTable td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dataTable th {
+  background-color: #030712;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.dataTable td {
+  color: white;
+  background-color: #18181B !important;
+}
+
+.dataTable tbody tr:nth-of-type(even) {
+  background-color: #3f4c59;
+}
+
+.dataTable tbody tr:hover {
+  background-color: #4b5563;
+}
+
+.resetZoomButton {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.resetZoomButton:hover {
+  background-color: #1e40af;
+}
+
+.tableCard::-webkit-scrollbar {
+  height: 8px;
+}
+
+.tableCard::-webkit-scrollbar-track {
+  background: #374151;
+  border-radius: 8px;
+}
+
+.tableCard::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 8px;
+}
+
+.tableCard::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.pagination button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #1e40af;
+}
+
+.pagination button:disabled {
+  background-color: #1e40af;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  color: #a8a29e;
+  padding: 0 10px;
+}

@@ -1,0 +1,14 @@
+# Created by Vite
+node_modules/
+dist/
+.env
+
+# Editor preferences
+.vscode/
+
+# Testing
+coverage/
+test/
+
+# Build tools
+vite.config.js
